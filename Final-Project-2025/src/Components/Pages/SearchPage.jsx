@@ -1,6 +1,6 @@
 
 
-export default function searchPage() {
+export default function SearchPage() {
 
 
 

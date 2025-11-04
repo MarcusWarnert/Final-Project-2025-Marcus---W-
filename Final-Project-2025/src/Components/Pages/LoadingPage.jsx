@@ -1,6 +1,6 @@
 
 
-export default function loadingPage() {
+export default function LoadingPage() {
 
 
 

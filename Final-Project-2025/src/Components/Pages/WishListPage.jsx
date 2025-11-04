@@ -1,6 +1,6 @@
 
 
-export default function wishListPage() {
+export default function WishListPage() {
 
 
 

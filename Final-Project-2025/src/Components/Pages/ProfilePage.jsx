@@ -1,6 +1,6 @@
 
 
-export default function profilePage() {
+export default function ProfilePage() {
 
 
 

@@ -1,6 +1,6 @@
 
 
-export default function settingsPage() {
+export default function SettingsPage() {
 
 
 
