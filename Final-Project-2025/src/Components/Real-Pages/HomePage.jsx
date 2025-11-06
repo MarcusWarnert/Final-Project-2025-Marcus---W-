@@ -8,10 +8,13 @@ export default function HomePage() {
                 <h1>
                     Home
                 </h1>
+                <p>
+                    Either search or add to your Wish List, there's not muchelse here.
+                </p>
             </div>
             <div>
                 <img 
-                
+                src="" 
                 />
             </div>
         </main>

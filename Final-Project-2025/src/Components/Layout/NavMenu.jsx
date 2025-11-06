@@ -4,7 +4,7 @@ export default function NavMenu() {
 
      return (
         <div className="nav-menu">
-            <Link className="link" to="/">
+            <Link className="link" to="Home">
                 Home
             </Link>
             <Link className="link" to="/WishList">
