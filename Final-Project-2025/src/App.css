@@ -1,18 +1,39 @@
 
-
 #body-container {
-    background: linear-gradient(135deg, #0f172a 0%, #071028 100%);
-    color: #f8fafc;
+    background: rgb(87,86,85);
+    color: rgb(159, 164, 165);
     min-height: 100vh;
-    padding: 24px;
-    box-sizing: border-box;
+    margin: 24px;
+    padding-left: 0;
 }
 
-header {
-    background-color: black;
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 12px;
 }
 
+.link:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
 
-footer {
+.link:visited {
+    color: rgba(138, 99, 175, 0.85);
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10;
+    color: white;
     background-color: black;
+    width: 100%;
+    padding: 15px clamp(20px, 4vw, 30px) 20px;
 }
