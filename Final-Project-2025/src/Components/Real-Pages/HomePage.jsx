@@ -1,4 +1,4 @@
-
+import React from 'react';
 
 export default function HomePage() {
 
@@ -9,13 +9,8 @@ export default function HomePage() {
                     Home
                 </h1>
                 <p>
-                    Either search or add to your Wish List, there's not muchelse here.
+                    Either search or add to your Wish List, there's not much else here.
                 </p>
-            </div>
-            <div>
-                <img 
-                src="" 
-                />
             </div>
         </main>
     );

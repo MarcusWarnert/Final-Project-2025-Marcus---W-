@@ -1,21 +1,13 @@
-import { Link } from `react`;
+import React from 'react';
+import { Link } from 'react';
 
 export default function NavMenu() {
-
-     return (
+    return (
         <div className="nav-menu">
-            <Link className="link" to="Home">
-                Home
-            </Link>
-            <Link className="link" to="/WishList">
-                WishList
-            </Link>
-            <Link className="link" to="/Settings">
-                Settings
-            </Link>
-            <Link className="link" to="/Profile">
-                Profile
-            </Link>
+            <Link className="link" to="/">Home</Link>
+            <Link className="link" to="/wishlist">WishList</Link>
+            <Link className="link" to="/settings">Settings</Link>
+            <Link className="link" to="/profile">Profile</Link>
         </div>
     );
-};
+}

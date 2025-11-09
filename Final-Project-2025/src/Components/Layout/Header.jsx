@@ -1,4 +1,5 @@
-import { NavMenu } from './NavMenu';
+import React from 'react';
+import NavMenu from './NavMenu';
 
 export default function Header() {
 

@@ -13,14 +13,6 @@
     gap: 12px;
 }
 
-.link:link,
-.link:visited {
-    color: rgba(255, 255, 255, 0.85);
-    font-size: 0.9rem;
-    font-weight: 400;
-    text-decoration: none;
-}
-
 .link:hover {
     color: white;
     text-decoration: underline;
