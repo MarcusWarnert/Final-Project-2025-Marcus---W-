@@ -1,18 +1,29 @@
-
-
 import React from 'react';
 
 export default function SettingsPage() {
 
     return (
-        <Main>
-            <h1>
+        <main>
+            <h1 id="SettingsHeader">
                 Settings
             </h1>
             <div>
-                Dark Mode-------Light Mode
-                FOV
+                <table id="AdjustableSettings">
+                    <thead>
+                        <tr>
+                            <th>Adjustable Settings</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dark Mode-------Light Mode</td>
+                        </tr>
+                        <tr>
+                            <td>FOV</td>
+                        </tr>
+                    </tbody>
+                </table> 
             </div>
-        </Main>
+        </main>
     )
 }
