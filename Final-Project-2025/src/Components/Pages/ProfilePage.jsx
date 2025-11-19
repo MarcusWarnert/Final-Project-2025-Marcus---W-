@@ -1,4 +1,5 @@
 import React from 'react';
+import UserProfile from '../Forms/UserProfile';
 
 export default function ProfilePage() {
 
@@ -8,9 +9,7 @@ export default function ProfilePage() {
                 Profile
             </h1>
             <div>
-                Name:       
-                Username:   
-                Password:   
+                <UserProfile/>  
             </div>
             <div>
                 <h2>

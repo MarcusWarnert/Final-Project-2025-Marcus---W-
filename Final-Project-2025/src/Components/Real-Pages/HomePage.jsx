@@ -17,6 +17,13 @@ export default function HomePage() {
             }}>
                 <h1>Welcome to the Home Page</h1>
                 
+                <p style={{ 
+                    display: 'grid',
+                    gridTemplateColumns: '300px auto',
+                    gap: '10px',
+                    alignItems: 'center'
+                }}>Feel free to search for any movie you wish to add to your tracker.</p>
+                
                 <div style={{
                     display: 'grid',
                     gridTemplateColumns: '300px auto',
@@ -27,10 +34,8 @@ export default function HomePage() {
                         type="text"
                         placeholder="Enter your movie"
                         style={{
-                            padding: '10px 15px',
-                            fontSize: '16px',
-                            borderRadius: '5px',
-                            border: '2px solid #ccc'
+                            display: 'grid',
+                            alignItems: 'center'
                         }}
                     />
                     <Link to="/search">
@@ -41,3 +46,4 @@ export default function HomePage() {
         </main>
     );
 }
+s
