@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Link } from 'react-router';
 import Button from '../Forms/Button';
 
@@ -24,10 +24,12 @@ export default function SearchPage() {
                         display: 'grid',
                         alignItems: 'center'
                      }}
-                  />
-                <Link to="/search">
-                       <Button>Search</Button>
-                </Link>
+                />
+                <div onClick >
+                    <Link to="/search">
+                        <Button>Search</Button>
+                    </Link>
+                </div>
             </div>
             <div>
                 <p>Your search results will appear here!</p>

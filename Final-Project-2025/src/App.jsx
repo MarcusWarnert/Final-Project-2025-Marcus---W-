@@ -5,7 +5,8 @@ import HomePage from './Components/Real-Pages/HomePage';
 import WishListPage from './Components/Real-Pages/WishListPage';
 import SettingsPage from './Components/Pages/SettingsPage';
 import ProfilePage from './Components/Pages/ProfilePage';
-import SearchPage from './Components/Pages/SearchPage'
+import SearchPage from './Components/Pages/SearchPage';
+import FeedbackPage from './Components/Pages/FeedbackPage';
 import Footer from './Components/Layout/Footer';
 import './App.css';
 
@@ -21,6 +22,7 @@ export default function App() {
                     <Route path="/settings" element={<SettingsPage />} />
                     <Route path="/profile" element={<ProfilePage />} />
                     <Route path="/search" element={<SearchPage />} />
+                    <Route path="/feedback" element={<FeedbackPage />} />
                 </Routes>
                 <Footer />
             </div>

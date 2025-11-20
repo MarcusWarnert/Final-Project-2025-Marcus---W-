@@ -8,6 +8,7 @@ export default function NavMenu() {
             <Link className="link" to="/wishlist">WishList</Link>
             <Link className="link" to="/settings">Settings</Link>
             <Link className="link" to="/profile">Profile</Link>
+            <Link className="link" to="/feedback">Feedback</Link>
         </div>
     );
 }
