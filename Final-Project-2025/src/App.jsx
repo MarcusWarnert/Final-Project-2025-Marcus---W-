@@ -44,6 +44,12 @@ export default function App() {
     };
 
     const addToWishList = async (movie) => {
+        //Check if is already in Wish List
+        if (wishList.some(item => item.id === movie.id)) {
+            console.log("That movie is already in your Wishlist");
+            return;
+        }
+
         const streamingInfo = await getStreamingProviders(movie.id);
         setWishList(prev => [...prev, { ...movie, streamingInfo }]);
     };
