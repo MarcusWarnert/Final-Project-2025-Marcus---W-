@@ -1,5 +1,4 @@
 import React from 'react';
-import UserProfile from '../Forms/UserProfile';
 
 export default function ProfilePage() {
 
@@ -9,7 +8,13 @@ export default function ProfilePage() {
                 Profile
             </h1>
             <div>
-                <UserProfile/>  
+                <h2>
+                    Personal Information
+                </h2>
+                <ol>
+                    <li>Name: Marcus</li>
+                    <li>Email: or_ang_oo_tang@gmail.com</li>
+                </ol>
             </div>
             <div>
                 <h2>
