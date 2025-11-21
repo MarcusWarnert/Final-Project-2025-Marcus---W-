@@ -67,14 +67,12 @@ export default function ALB({ size = 200 }) {
         <path 
           className="drawing-path w-top"
           d="M 75 80 L 87.5 120 L 100 80 L 112.5 120 L 125 80"
-          alt="Top W letter"
         />
         
         {/* Bottom W (upside down) */}
         <path 
           className="drawing-path w-bottom"
           d="M 75 120 L 87.5 80 L 100 120 L 112.5 80 L 125 120"
-          alt="Bottom inverted W letter"
         />
       </svg>
     </div>
