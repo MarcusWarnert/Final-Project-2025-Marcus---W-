@@ -78,14 +78,6 @@ formData.feedback;
                             Submit Feedback
                         </button>
                 </form>
-                <div className="preview-container">
-                    <h2>Preview</h2>
-                    <div className="preview-content">
-                        <p><strong>Name:</strong> {formData.name || '(Not provided)'}</p>
-                        <p><strong>Email:</strong> {formData.email || '(Not provided)'}</p>
-                        <p><strong>Feedback:</strong> {formData.feedback || '(Not provided)'}</p>
-                    </div>
-                </div>
             </div>
         </main>
     );
