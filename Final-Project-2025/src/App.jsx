@@ -7,6 +7,7 @@ import SettingsPage from './Components/Pages/SettingsPage';
 import ProfilePage from './Components/Pages/ProfilePage';
 import SearchPage from './Components/Pages/SearchPage';
 import FeedbackPage from './Components/Pages/FeedbackPage';
+import AboutPage from './Components/Pages/AboutPage';
 import Footer from './Components/Layout/Footer';
 import './App.css';
 
@@ -70,6 +71,7 @@ export default function App() {
                     <Route path="/settings" element={<SettingsPage />} />
                     <Route path="/profile" element={<ProfilePage />} />
                     <Route path="/feedback" element={<FeedbackPage />} />
+                    <Route path="/about" element={<AboutPage />} />
                     <Route 
                         path="/search" 
                         element={
