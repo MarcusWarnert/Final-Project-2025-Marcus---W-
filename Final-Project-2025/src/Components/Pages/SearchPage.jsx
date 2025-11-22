@@ -33,7 +33,6 @@ export default function SearchPage({ searchMovies, addToWishList, wishList }) {
         }}>
             <div style={{
                 display: 'flex',
-                gridTemplateColumns: '300px auto',
                 gap: '10px',
                 alignItems: 'center',
                 marginBottom: '30px'
@@ -47,7 +46,9 @@ export default function SearchPage({ searchMovies, addToWishList, wishList }) {
                     placeholder="Enter your movie"
                     style={{
                         flex: 1,
-                        alignItems: 'center'
+                        padding: '10px',
+                        borderRadius: '5px',
+                        border: '1px solid #ceb5b5ff'
                      }}
                 />
                 <Button handleClick={handleSearch}>
@@ -60,7 +61,12 @@ export default function SearchPage({ searchMovies, addToWishList, wishList }) {
             </div>
             )}
 
-            <div>
+            <div style={{
+                display: 'grid',
+                gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
+                gap: '20px',
+                marginTop: '20px'
+            }}>
                 {searchResults.map(movie => (
                     <MovieCard
                         key={movie.id}
@@ -68,6 +74,7 @@ export default function SearchPage({ searchMovies, addToWishList, wishList }) {
                         buttonText={isInWishList(movie.id) ? "Added ✓" : "Add to Wishlist"}
                         buttonAction={() =>addToWishList(movie)}
                         isDisabled={isInWishList(movie.id)}
+                        showFreeBadge={false}
                     />
                 ))}
             </div>

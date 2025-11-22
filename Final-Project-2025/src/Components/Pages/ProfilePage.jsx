@@ -26,15 +26,6 @@ export default function ProfilePage() {
                     <li>Amazon</li>
                 </ol>
             </div>
-            <div>
-                <h2>
-                    Your Free Streaming Apps
-                </h2>
-                <ul>
-                    <li>Tubi</li>
-                    <li>Pluto</li>
-                </ul>
-            </div>
         </main>
     )
 
