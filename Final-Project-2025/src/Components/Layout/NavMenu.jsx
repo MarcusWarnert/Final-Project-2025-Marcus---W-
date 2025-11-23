@@ -10,6 +10,7 @@ export default function NavMenu() {
             <Link className="link" to="/profile">Profile</Link> 
             <Link className="link" to="/feedback">Feedback</Link>
             <Link className="link" to="/about">About</Link>
+            <Link className="link" to="/search">Search</Link>
         </div>
     );
 }
