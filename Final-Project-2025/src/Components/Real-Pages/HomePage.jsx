@@ -8,42 +8,34 @@ export default function HomePage() {
             display: 'grid',
             placeItems: 'center',
             minHeight: '80vh',
-            padding: '20px'
         }}>
             <div style={{
                 display: 'grid',
                 gap: '30px',
-                justifyItems: 'center'
+                justifyItems: 'center',
+                alignItems: 'center'
             }}>
                 <h1>Welcome to the Home Page</h1>
-                
                 <p style={{ 
                     display: 'grid',
                     gridTemplateColumns: '300px auto',
                     gap: '10px',
-                    alignItems: 'center'
-                }}>Feel free to search for any movie you wish to add to your tracker.</p>
-                
+                    alignItems: 'center',
+                }}>Here you can search for any movies, add them to your wishlist, and then you will be able to see if it is free  to stream, and where at.</p>
+
                 <div style={{
-                    display: 'grid',
-                    gridTemplateColumns: '300px auto',
-                    gap: '10px',
-                    alignItems: 'center'
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '0.5rem',
+                    alignItems: 'center',
+                    justifyItems: 'center'
+
                 }}>
-                    <input
-                        type="text"
-                        placeholder="Enter your movie"
-                        style={{
-                            display: 'grid',
-                            alignItems: 'center'
-                        }}
-                    />
                     <Link to="/search">
-                        <Button>Search</Button>
+                        <Button>Go to Search</Button>
                     </Link>
                 </div>
             </div>
         </main>
     );
 }
-s

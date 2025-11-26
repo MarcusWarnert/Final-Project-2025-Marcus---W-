@@ -1,5 +1,4 @@
 import React from 'react';
-import UserProfile from '../Forms/UserProfile';
 
 export default function ProfilePage() {
 
@@ -9,26 +8,13 @@ export default function ProfilePage() {
                 Profile
             </h1>
             <div>
-                <UserProfile/>  
-            </div>
-            <div>
                 <h2>
-                    Your Streaming Apps
+                    Personal Information
                 </h2>
                 <ol>
-                    <li>Netflix</li>
-                    <li>Disney+</li>
-                    <li>Amazon</li>
+                    <li>Name: Marcus</li>
+                    <li>Email: or_ang_oo_tang@gmail.com</li>
                 </ol>
-            </div>
-            <div>
-                <h2>
-                    Your Free Streaming Apps
-                </h2>
-                <ul>
-                    <li>Tubi</li>
-                    <li>Pluto</li>
-                </ul>
             </div>
         </main>
     )
